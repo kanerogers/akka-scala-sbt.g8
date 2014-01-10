@@ -10,9 +10,9 @@ object $name;format="Camel"$Build extends Build {
       name := "$name$",
       organization := "$organization$",
       version := "$version$",
-      scalaVersion := "2.9.2",
-      resolvers += "Typesafe Releases" at "http://repo.typesafe.com/typesafe/releases",
-      libraryDependencies += "com.typesafe.akka" % "akka-actor" % "$akka_version$"
+      scalaVersion := "2.10.2",
+      resolvers += "Typesafe Repository" at "http://repo.typesafe.com/typesafe/releases",
+      libraryDependencies += "com.typesafe.akka" %% "akka-actor" % "$akka_version$"
     )
   )
 }
